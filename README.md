@@ -29,6 +29,7 @@ Features
 ToDo List
 ---
 * Csrf protection
+* Exceptions handling
 * Flash messages
 * Different user roles and actions
 * Installation script
