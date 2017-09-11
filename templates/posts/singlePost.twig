@@ -1,0 +1,12 @@
+{% extends "base.twig" %}
+{% block title %}
+    Single post {{ singlePost.id }}
+{% endblock %}
+{% block content %}
+    <div class="col-md-12">
+        <h2>
+            <a href="{{ path_for('posts.displaySingle', { id: singlePost.id }) }}">{{ singlePost.title }}</a>
+        </h2>
+        <p class="lead">{{ singlePost.body }}</p>
+    </div>
+{% endblock %}
