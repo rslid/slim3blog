@@ -14,9 +14,10 @@ Install
 * Import .sql file located in data folder
 * Run 'php composer.phar install' or 'composer install' in root directory
 * Start the local webserver by using:
+
        php -S localhost:8888 -t public public/index.php
 * Enter correct database settings in app/settings.php 
-* Login with example@mail.bg:demo321
+* Login with example@mail.bg/demo321
 
 Features
 ---
